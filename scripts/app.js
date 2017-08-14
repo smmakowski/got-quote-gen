@@ -1,6 +1,8 @@
 $(document).ready(function() {
+  // GoT Quote API URL => https://github.com/wsizoo/game-of-thrones-quotes
+  $('#get-quote').on('click', function() {
+    $.getJSON('https://got-quotes.herokuapp.com/quotes', function(json) {
 
-	// DELETE CODE IN LINE 4 ENTER YOUR CUSTOM CODE HERE
-  $('#placeholder').css({color: 'green'});
-
+    });
+  });
 });
