@@ -1,15 +1,15 @@
 /* INSERT CUSTOM STYLES BELOW */
 /* BOOTSTRAP AND NORMALIZE.CSS ARE ALREADY LINKED AND READY TO USE */
 /* ADDING CUSTOM CSS STYLING IS OPTIONAL */
-#logo {
-  margin-left: auto;
-  margin-right: auto;
-  height: 40%;
-  width: 40%;
-}
 
 #subtitle {
   margin-top: 0;
+  color: white;
+  text-shadow: -2px 0 gold;
+}
+
+body {
+  background-image: url('https://typeset-beta.imgix.net/rehost%2F2016%2F9%2F13%2Fd98c7b72-2dd6-4143-8715-2b33630aa064.jpg');
 }
 
 @media (max-width 200px) {
