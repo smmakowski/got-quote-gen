@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#get-quote').on('click', function() {
+  function getQuote() {
     var url = 'https://twitter.com/intent/tweet?hashtags=quotes,GoT&related=freecodecamp&text=';
 
     $.getJSON('https://got-quotes.herokuapp.com/quotes', function(json) {
@@ -10,5 +10,11 @@ $(document).ready(function() {
 
       $('a').attr('href', url);
     });
+  }
+
+  $('#get-quote').on('click', function() {
+    getQuote();
   });
+
+  getQuote();
 });
