@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
-	// ENTER YOUR CUSTOM CODE HERE
+	// DELETE CODE IN LINE 4 ENTER YOUR CUSTOM CODE HERE
+  $('#placeholder').css({color: 'green'});
 
 });
