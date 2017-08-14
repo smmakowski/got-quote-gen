@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> <!--INSERT PAGE TITLE HERE--></title>
+    <title>GoT Quote Generator</title>
     <link href="./styles/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,12 +13,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
-    <h3 id="show-quote">"<small>Press the button below for a quote</small>"</h3>
-    <h6 id="show-character">- No one ever</h6>
-    <button id="get-quote">GoT quote</button>
-    <a href="#" target="_blank">
-      <div id="tweet" class="btn btn-primary"><i class="fa fa-twitter"></i>Tweet</div>
-    </a>
+      <image class="img-responsive" id="logo" src="http://www.firstcomicsnews.com/wp-content/uploads/2016/09/Game-of-Thrones-logo-600x253.png"></image>
+        <h3 class="text-center" id="subtitle">Quote Generator</h2>
+
+    <div class="container">
+      <blockquote>
+        <p id="show-quote"></p>
+        <footer class="blockquote-footer" id="show-character"></footer>
+      </blockquote>
+      <div class="btn-group pagination-center">
+            <a href="#" target="_blank">
+              <div id="tweet" class="btn btn-primary">
+                <i class="fa fa-twitter"></i>Tweet
+              </div>
+            </a>
+          <button class="btn btn-primary" id="get-quote">GoT quote</button>
+      </div>
+    </div>
+
   </body>
     <script src="./scripts/app.js"></script>
 </html>

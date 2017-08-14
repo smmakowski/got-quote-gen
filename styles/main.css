@@ -1,3 +1,19 @@
 /* INSERT CUSTOM STYLES BELOW */
 /* BOOTSTRAP AND NORMALIZE.CSS ARE ALREADY LINKED AND READY TO USE */
 /* ADDING CUSTOM CSS STYLING IS OPTIONAL */
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+  width: 40%;
+}
+
+#subtitle {
+  margin-top: 0;
+}
+
+@media (max-width 200px) {
+  #subtitle {
+    font-size: 10px;
+  }
+}
